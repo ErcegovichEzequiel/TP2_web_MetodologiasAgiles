@@ -1,0 +1,9 @@
+Azul (#1E90FF): El azul es un color asociado con la confianza, la responsabilidad y la profesionalidad. Es ideal para transmitir una sensación de calma y fiabilidad.
+
+Verde (#32CD32): El verde está relacionado con el crecimiento, la renovación y la estabilidad. Representa la innovación y la creatividad, ideales para hablar sobre metodologías ágiles.
+
+Naranja (#FFA500): El naranja es un color energizante y estimulante, asociado con el entusiasmo y la creatividad. Añade un toque de dinamismo y puede ayudar a captar la atención del lector.
+
+Gris (#A9A9A9): El gris representa neutralidad y equilibrio. Es perfecto para los fondos o para equilibrar los colores más vibrantes, aportando un toque profesional y moderno.
+
+Blanco (#FFFFFF): El blanco simboliza pureza, claridad y simplicidad. Es esencial para mantener el diseño limpio y legible, además de proporcionar espacios en blanco que mejoren la experiencia de lectura.

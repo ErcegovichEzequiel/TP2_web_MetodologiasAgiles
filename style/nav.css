@@ -1,0 +1,65 @@
+.nav {
+    display: flex;
+    border-bottom: black 2px solid;
+}
+
+.nav .logoContainer {
+    width: 5%;
+    height: auto;
+}
+
+.nav .logoContainer .logo {
+    width: 100%;
+}
+
+.nav .menuContainer {
+    width: 95%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 20px;    
+}
+
+.nav .menuContainer a {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+}
+
+.nav .menuContainer a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background-color: #FFA500;
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+    transform-origin: bottom left;
+}
+
+.nav .menuContainer a:hover::after {
+    transform: scaleX(1);
+}
+
+@media (min-width: 375px) and (max-width: 800px) {
+    .nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav .menuContainer {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav .menuContainer a {
+        margin: 10px 0;
+    }
+
+    .nav .logoContainer {
+        width: 25%;
+    }    
+}
