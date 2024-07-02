@@ -21,7 +21,7 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: auto;
+    
     padding: 3%;
 }
 
@@ -35,7 +35,6 @@
 
 .registerContainer .registerInfo .registerImgContainer {
     width: 100%;
-    height: auto;
 }
 
 .registerImg {
@@ -49,7 +48,6 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: auto;
     background-color: #55ff99;
     border-radius: 5px;
     padding: 3%;
@@ -71,7 +69,6 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: auto;
     padding: 3%;
 }
 
@@ -81,7 +78,6 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: auto;
     padding: 3%;
 }
 
@@ -100,7 +96,6 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: auto;
     padding: 3%;
     font-size: 80%;
 }
