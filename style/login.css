@@ -88,6 +88,7 @@
     border-radius: 5px;
     border: 2px solid black;
     padding: 1%;
+    font-size: 90%;
 }
 
 .loginContainer .loginForm a {
@@ -137,6 +138,7 @@
 
     .loginContainer .loginForm input {
         width: 90%;
+        font-size: 84%;
     }
 
     .loginContainer .loginForm .button {
@@ -152,6 +154,7 @@
 
     .loginContainer .loginForm input {
         width: 90%;
+        font-size: 84%;
     }
 
     .loginContainer .loginForm .button {

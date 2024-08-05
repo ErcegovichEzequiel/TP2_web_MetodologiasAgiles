@@ -29,7 +29,7 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    
+
 }
 
 .imgContainer .imgTextContainer {
@@ -52,136 +52,100 @@
 }
 
 /* METODOLOGIAS */
-.cardContainer {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    padding: 1%;
+.metodologiasContainer {
+    max-width: 99%;
+    padding: 2%;
 }
 
-.cardContainer .card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    padding: 1%;
-    font-size: 120%;
-    margin-bottom: 3%;
-    background: linear-gradient(to right, #1E90FF, #ff7e5f);
-    border-radius: 5px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.metodologiasContainer #metodologiasCards .col .card {
+    height: 100%;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3);
 }
-
-.cardContainer .card h3 {
-    margin-bottom: 1%;
-    font-size: 200%;
-    text-align: center;
-}
-
-.cardContainer .card .cardImgText {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-}
-
-.cardContainer .card .cardImgText1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-}
-
-.cardContainer .card .cardImg {
-    width: 30%;
-    margin-bottom: 3%;
-    border-radius: 5px;
-    margin-right: 1%;
-}
-
-.cardContainer .card p {
-    text-align: justify;
-    line-height: 160%;
-    font-size: 120%;
-    width: 70%;
-}
-
-
 
 @media (min-width: 375px) and (max-width: 700px) {
-.imgContainer{
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-}
-.imgContainer .imgTextContainer{
-    width: 90%;
-}
-.imgContainer .imgTextContainer .imgText{
-    font-size: 100%;
-    text-align: justify;
-}
-.imgContainer .imgMetodologias{
-    width: 90%;
-}
-.cardContainer .card .cardImgText,
-.cardContainer .card .cardImgText1{
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    padding: 1%;
-}
-.cardContainer .card .cardImg{
-    width: 90%;
-    margin-bottom: 3%;
-    border-radius: 5px;
-    margin-right: 1%;
-}
-.cardContainer .card p{
-    font-size: 100%;
-    width: 90%;
-    text-align: justify;
-}
-}
-
-@media (min-width: 701px) and (max-width: 1024px) {
-    .imgContainer{
+    .imgContainer {
         flex-direction: column;
         align-items: center;
         justify-content: center;
         width: 100%;
     }
-    .imgContainer .imgTextContainer{
+
+    .imgContainer .imgTextContainer {
         width: 90%;
     }
-    .imgContainer .imgTextContainer .imgText{
+
+    .imgContainer .imgTextContainer .imgText {
         font-size: 100%;
         text-align: justify;
     }
-    .imgContainer .imgMetodologias{
+
+    .imgContainer .imgMetodologias {
         width: 90%;
     }
+
     .cardContainer .card .cardImgText,
-    .cardContainer .card .cardImgText1{
+    .cardContainer .card .cardImgText1 {
         flex-direction: column;
         align-items: center;
         justify-content: center;
         width: 100%;
         padding: 1%;
     }
-    .cardContainer .card .cardImg{
+
+    .cardContainer .card .cardImg {
         width: 90%;
         margin-bottom: 3%;
         border-radius: 5px;
         margin-right: 1%;
     }
-    .cardContainer .card p{
+
+    .cardContainer .card p {
         font-size: 100%;
         width: 90%;
         text-align: justify;
     }
+}
+
+@media (min-width: 701px) and (max-width: 1024px) {
+    .imgContainer {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
     }
-   
+
+    .imgContainer .imgTextContainer {
+        width: 90%;
+    }
+
+    .imgContainer .imgTextContainer .imgText {
+        font-size: 100%;
+        text-align: justify;
+    }
+
+    .imgContainer .imgMetodologias {
+        width: 90%;
+    }
+
+    .cardContainer .card .cardImgText,
+    .cardContainer .card .cardImgText1 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 1%;
+    }
+
+    .cardContainer .card .cardImg {
+        width: 90%;
+        margin-bottom: 3%;
+        border-radius: 5px;
+        margin-right: 1%;
+    }
+
+    .cardContainer .card p {
+        font-size: 100%;
+        width: 90%;
+        text-align: justify;
+    }
+}

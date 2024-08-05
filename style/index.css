@@ -8,7 +8,6 @@
 .headerContainer {
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
 }
 
 .headerContainer .sectionContainer {
@@ -17,9 +16,7 @@
     flex-direction: column;
     align-items: center;
     padding: 1%;
-    
-    margin-top: 6%;
-}
+    }
 
 .headerContainer .sectionContainer .sectionIndex {
     width: 100%;
@@ -46,13 +43,16 @@ h3 {
 
 /* ARTICLES */
 .headerContainer .articlesContainer {
-    width: 20%;
+    width: 25%;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 1%;
-    background-color: #A9A9A9;
+    /* background-color: #A9A9A9; */
     height: 100%;
+}
+.articlesContainer .card{
+    margin-bottom: 2%;
 }
 
 .headerContainer .articlesContainer .articleIndex {
